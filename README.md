@@ -1,0 +1,1 @@
+# Factory - Zadatak - Frontend Slider
