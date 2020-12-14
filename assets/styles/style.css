@@ -10,6 +10,7 @@ body {
 }
 h1 {
     font-size: 1.8rem;
+    font-weight: 800;
     color: var(--primary);
 }
 p {
@@ -46,15 +47,13 @@ footer {
     width: 60%;
 }
 .side-text {
-    display: flex;
-    flex-direction: column;
-    width: 30%;
-    padding: 10px 20px;
+    width: 28%;
+    padding: 20px;
 }
 .top-images {
     display: flex;
     flex-direction: row;
-    padding: 15px;
+    padding: 5px;
     overflow: hidden;
 }
 .bottom {
@@ -65,21 +64,21 @@ footer {
 .bottom-images {
     display: flex;
     flex-direction: row;
-    padding: 15px;
+    padding: 5px;
     overflow: hidden;
     width: 90%;
 }
 .image {
     width: auto;
     height: 200px;
-    margin: 0 2px;
+    margin: 0 4px;
     border-radius: 10px;
 }
 .buttons {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding: 10px 0 10px 30px;
+    padding: 10px 0 10px 120px;
 }
 .btn {
     cursor: pointer;
