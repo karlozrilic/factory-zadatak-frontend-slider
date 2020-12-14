@@ -34,23 +34,22 @@ footer {
 .container {
     display: flex;
     flex-direction: row;
+    justify-content: flex-end;
     margin: 0 auto;
     width: 60%;
+    height: 500px;
 }
 .slider {
-    display: flex;
-    flex-direction: column;
-    height: auto;
-    position: relative;
+    align-self: center;
+    position: absolute;
     left: 0;
-    top: 0;
-    width: 70%;
+    width: 60%;
 }
 .side-text {
     display: flex;
     flex-direction: column;
     width: 30%;
-    padding: 0 20px;
+    padding: 10px 20px;
 }
 .top-images {
     display: flex;
