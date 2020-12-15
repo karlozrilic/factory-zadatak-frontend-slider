@@ -38,7 +38,7 @@ footer {
     justify-content: flex-end;
     margin: 0 auto;
     width: 60%;
-    height: 500px;
+    min-height: 500px;
 }
 .slider {
     align-self: center;
